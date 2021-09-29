@@ -4,37 +4,36 @@
   </a>
 </p>
 
-# Breast Cancer Images on Histopathology Slides
+# Movie Genre classifiation
 
-This dataset<sup>1</sup> contains images of breast cancer on histopathology slides.
+This dataseti based on<sup>1</sup> contains images of movies posters of drama and comedy only.
 
-The data can be used to build and train an ML model that can detect breast cancer.
+The data can be used to build and train an ML model that can classify posters in comedy or drama genre.
 
 # Structure
 
 This repo contains the following structure:
 
-- **data/**: contains the CSV files and directory with images.
-  - **test**: contains **benign** and **malignant** subdirectories of images for testing.
-  - **train**: contains **benign** and **malignant** subdirectories of images for training.
-- **dastaset.csv**: CSV file for use in loading the data in PerceptiLabs.
+- **posters/**: contains all images posters
+- **data.csv**: CSV file for use in loading the data in PerceptiLabs.
 
 
 <p align="center">
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in **dataset.csv* that is used to load the data into PerceptiLabs. The labels indicate the respective condition depicted in each image.
+The following shows a partial example of the data stored in **data.csv* that is used to load the data into PerceptiLabs. The labels indicate the respective condition depicted in each image.
 
-| **images** | **labels** |
+| **labels** | **images** |
 |------------|--------------|
-| data/train/benign/SOB_B_F-14-29960AB-400-015.png |	benign |
-| data/train/benign/SOB_B_PT-14-21998AB-400-039.png |	benign |
-| data/train/malignant/SOB_M_LC-14-13412-400-023.png |	malignant | 
-| data/train/malignant/SOB_M_PC-14-15704-400-015.png |  malignant |
+| Comedy | posters/113228.jpg |
+| Comedy | posters/114885.jpg |
+| Comedy | posters/113041.jpg |
+| Comedy | posters/114319.jpg |
+
 
 # Community
 
 Got questions, feedback, or want to join a community of machine learning practitioners working with exciting tools and projects? Check out our [Community](https://forum.perceptilabs.com/)!
 
-<sup>1</sup> Dataset Credits: https://www.kaggle.com/forderation/breakhis-400x
+<sup>1</sup> Dataset Credits: https://www.kaggle.com/neha1703/movie-genre-from-its-poster

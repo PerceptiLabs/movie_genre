@@ -4,25 +4,24 @@
   </a>
 </p>
 
-# Movie Genre classifiation
+# Movie Genre Classification
 
-This dataseti based on<sup>1</sup> contains images of movies posters of drama and comedy only.
+This dataset<sup>1</sup> contains images of posters for drama and comedy genres of movies.
 
-The data can be used to build and train an ML model that can classify posters in comedy or drama genre.
+The data can be used to build and train an ML model that can classify posters of comedy or drama movies.
 
 # Structure
 
 This repo contains the following structure:
 
-- **posters/**: contains all images posters
+- **posters/**: contains all images of posters
 - **data.csv**: CSV file for use in loading the data in PerceptiLabs.
-
 
 <p align="center">
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in **data.csv* that is used to load the data into PerceptiLabs. The labels indicate the respective condition depicted in each image.
+The following shows a partial example of the data stored in **data.csv* that is used to load the data into PerceptiLabs. The labels indicate the respective genre (Comedy or Drama) depicted in each image.
 
 | **labels** | **images** |
 |------------|--------------|
